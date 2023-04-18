@@ -78,4 +78,4 @@ def atualizar_relatorio():
     df.to_excel('carteiraAtualizada.xlsx')
 
 
-atualizar_relatorio(
+atualizar_relatorio()
