@@ -1,0 +1,38 @@
+import pandas as pd
+
+# from datetime import datetime, timedelta
+
+
+
+def atualizar_relatorio():
+
+    tab_cli = pd.read_excel('BaseClientes.xlsx')
+    tab_car = pd.read_excel('BaseCarteira.xlsx')
+    tab_stt = pd.read_excel('StatusClientes.xlsx')
+
+    # data_atual = data.today()
+
+    cad_cli = tab_cli[['Cliente', 'Bairro', 'Fantasia', 'Data Iní. Cad.']]
+
+    car_rep = tab_car[['ID','Cod','Repr/Vend']]
+
+    status_cliente = tab_stt.loc[tab_stt['Situação'] == 'A', ['Cliente', 'Data Ultima Compra']]
+
+    status_car = pd.merge(cad_cli, status_cliente, on='Cliente', how='left')
+
+    cart_repr = pd.merge(status_car, car_rep, left_on='Cliente', right_on='ID', how='right')
+
+
+
+    print (cart_repr)
+
+
+    df = cart_repr
+
+    df = df [['Cod', 'Repr/Vend', 'ID', 'Fantasia', 'Bairro', 'Data Iní. Cad.', 'Data Ultima Compra']]
+
+
+
+    df.to_excel('carteiraAtualizada.xlsx')
+
+atualizar_relatorio()
