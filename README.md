@@ -3,6 +3,7 @@ Software para união de tabelas
 
 # PROJETO PARA ATUALIZAÇÃO DA CARTEIRA DOS VENDEDORES E REPRESENTANTES  #
 
+Notas: Desde o inicio do projeto ja houve diversas atualiz e mudaçnas no  software conforme as necessidads, contudo não houve atualizações neste repostitorio, em breve sera postado  a versã mais recente  do codigo.
 
 Software para união de tabelas
 
