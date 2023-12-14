@@ -1,7 +1,7 @@
 # Atualizador de carteira.
 ---
 
-Este software foi desenvolvido com o proprosito de inir informações distintas entre planilhas, com o proposito de mesclar informações estrategicas da empresa, esta verçao disponibilizada foi desenvolvida com o proposito de compartilhar conhecimento, visando a confidencialidade dos dados originas, este codigo está sendo levemente alterado, contudo não afetara seu proposito original.
+Este software foi desenvolvido com o proprosito de unir informações distintas entre planilhas, com o proposito de mesclar informações estrategicas da empresa, esta verçao disponibilizada foi desenvolvida com o proposito de compartilhar conhecimento, visando a confidencialidade dos dados originas, este codigo está sendo levemente alterado, contudo não afetara seu proposito original.
 
 Este software está em constante uso e atualizações, está versão recebe atualizações periodicas, este codigo pode ser copiado apenas para fins educacionais.
 
